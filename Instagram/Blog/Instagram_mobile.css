@@ -74,7 +74,7 @@
     /* width: 100vw; */
     border: none;
     position: fixed;
-    top: 3%;
+    top: 2%;
     left: 30%;
     z-index: 5;
 }
@@ -139,7 +139,7 @@
     outline: none !important;
     position: absolute;
     right: 22vw;
-    top: 2.5vh;
+    top: 2.1vh;
 }
 
 .button_down img {
@@ -168,9 +168,9 @@
 .nav-item.top_menu_link [href="browse_blogs.php"] {
     position: absolute;
     right: 0;
-    top: 1vh;
+    top: 0.8vh;
     margin: 8px !important;
-    content: url(./uploads_user/13000/12801/0_1441.jpg);
+    content: url(https:beon.vip/uploads_user/13000/12801/0_1441.jpg);
     border-radius: 50%;
     height: 24px;
     width: 24px;
@@ -179,7 +179,7 @@
 
 .nav-item.top_menu_link [href="browse_quiz.php"] {
     position: absolute;
-    top: 2.6vh;
+    top: 2.2vh;
     left: 28vw;
     content: url(https://beon.vip/uploads_user/17000/16122/17149.jpg);
 }
@@ -188,7 +188,7 @@
 
 .btn-primary {
     position: fixed;
-    bottom: 2.5%;
+    bottom: 2%;
     left: 50vw;
     height: 24px;
     width: 24px !important;
@@ -246,7 +246,7 @@
     /* border-radius: 6px; */
     /* box-shadow: 0 0 5px 1px rgb(0 0 0 / 10%); */
     border-color: #fff;
-    height: 85vh;
+    height: 88vh;
     overflow: hidden auto;
     width: 100vw;
     position: absolute;
@@ -267,7 +267,7 @@
     height: 22px;
     width: 22px;
     font-size: 0px;
-    top: 94.5vh;
+    top: 96vh;
     right: 22.5vw;
     position: fixed;
     z-index: 9 !important;
@@ -281,6 +281,10 @@
 
 .modal-title, .modal-footer {
     display: none
+}
+
+.updatesWrap {
+    height: 80vh;
 }
 
 .updatesRow{
@@ -401,7 +405,7 @@ body {
     border-radius: 3px;
     padding: 6px 24px 4px 24px !important;
     left: 52%;
-    top: 21.5vh;
+    top: 21.4vh;
     content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 2025 2043'%3E%3Cstyle%3E fill='%23262626' fill-rule='evenodd'%3C/style%3E%3Cpath d='M612,1c180.469-2.951,280.3,99.456,349,209l52,96h1c6.8-32.525,37.83-75.229,55-101,60.51-90.8,133.96-166.77,255-197,187.3-46.782,354.33,114.205,310,301-9.29,39.151-27.23,67.7-44,98h181c35.23,0,74.56-2.8,103,5,56.55,15.514,98.23,49.588,125,95,24.92,42.274,25,95.426,25,163q-0.495,57.5-1,115c-13.45,73.3-59.37,138.7-127,157v665c0.01,139.64,12.08,250.99-47,334-85.24,119.77-212.7,102-411,102H433c-34.678,0-72.733,2.73-102-4-49.006-11.27-85.759-32.32-119-59-92.34-74.11-82-188.97-82-352V942C64.28,924.307,18.363,860.805,4,791c-7.7-37.417-3-85.993-3-128,0-61.978.882-115.086,25-156,26.744-45.368,69.566-80.46,127-95,29.339-7.427,68.159-5,104-5H434v-1l-2-2c-11.852-29.175-30.469-54.047-40-89C355.213,180.084,440.488,64.143,524,25L579,6Zm778,99-31,3c-21.77,4.674-42.46,10.862-61,19-90.6,39.77-152.07,132.205-192,223-8.64,19.646-20.36,39.376-26,62h229c38.64,0,86.74,4.81,119-4,23.65-6.459,44.09-18.5,61-32,43.92-35.063,69.43-116.71,39-186C1504.91,132.434,1457.57,106.067,1390,100Zm-772,1-39,9c-29.859,11.769-55.937,33.286-72,59-51.81,82.939-8.855,181.89,54,219,34.568,20.409,85.587,19,142,19H946C884.844,271.411,812.435,100.008,618,101ZM814,856V506H343c-64.895,0-157.369-10.563-198,16-50.067,32.732-44,88.665-44,170v76c18.073,102.219,104.218,88.006,221,88H814Zm398-350V856h475c66.3,0,157.33,10.154,197-18,47.84-33.947,41-90.8,41-171q-0.495-39.5-1-79c-19.67-94.077-103.99-82.006-215-82H1212ZM229,956v678c0,105.79-12.059,221.2,46,269,58.14,47.87,112.536,41,216,41H814V956H229Zm983,0v988h323c103.43,0.01,157.91,6.88,216-41,58.04-47.84,46-163.18,46-269V956H1212Z'/%3E%3C/svg%3E");
     position: absolute;
 }
@@ -721,9 +725,9 @@ body {
 
 #bbcode{
     position: fixed;
-    bottom: 4%;
+    bottom: 3%;
     font-size: 0px;
-    left: 3vw;
+    left: 4%;
     padding: 8px 16px 8px 0 !important;
 }
 [src="/images/bbcode/smile.gif"]{
@@ -777,7 +781,7 @@ body {
 [style="margin-bottom: 20px;"] .button:nth-child(3){
     padding: 8px !important;
     position: fixed;
-    top: 510px;
+    top: 86%;
     right: 0;
     z-index: 11;
 }
