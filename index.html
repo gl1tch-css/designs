@@ -1,0 +1,63 @@
+<html>
+
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+<style>
+* {
+color: #fff;
+font-size: 26px;
+font-family: monospace;
+text-decoration: none;
+}
+
+body {
+background: url(index.jpg);
+background-size: cover;
+}
+
+#moon {
+background: rgba(255,255,255,0.1);
+width: 70px;
+height: 70px;
+border-radius: 50%;
+position: absolute;
+top: 38%;
+right: 26.5%;
+}
+
+#text {
+width: 410px;
+position: absolute;
+top: 35vh;
+left: 25vw;
+display: none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="moon">
+<script>
+$('#moon').on('click',() => {
+	$('#text').stop().fadeToggle();
+	return false;
+});
+
+$('#moon').on('click', function () { 
+    var obj = document.createElement("audio");
+        obj.src = "index.mp3"; 
+        obj.play(); 
+});
+</script>
+</div>
+
+<div id="text"> Ого. Если вы нашли это описание, то поздравляю! Вы либо мамкин хакер, либо создатель беона. Ну, либо же я снёс к хуям диз ( ͡° ͜ʖ ͡°)
+</div>
+</body>
+
+</html>
