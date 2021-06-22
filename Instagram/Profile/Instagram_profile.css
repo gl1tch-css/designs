@@ -266,7 +266,7 @@
 }
 
 #profile_tabs_friends a{
-    content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='19px' width='90px'><text x='0' y='14' fill='black' font-size='14' font-weight= '600' line-height='26px' font-family='Arial'>Подписчики</text></svg>");
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' height='19px' width='90px'%3E%3Ctext x='0' y='14' fill='black' font-size='14' font-weight= '600' line-height='26px' font-family='Arial'%3EПодписчики%3C/text%3E%3C/svg%3E");
 }
 
 [style="border-top: 1px solid #DDDDDD; padding-top: 10px;"]{
@@ -357,7 +357,7 @@
     left: 28.1%;
     margin-bottom: 20px !important;
     pointer-events: none;
-    content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='19px' width='90px'><text x='0' y='14' fill='black' font-size='14' font-weight= '600' line-height='26px' font-family='Arial'>Публикации</text></svg>");
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' height='19px' width='90px'%3E%3Ctext x='0' y='14' fill='black' font-size='14' font-weight= '600' line-height='26px' font-family='Arial'%3EПубликации%3C/text%3E%3C/svg%3E");
 }
 
 .profile_blogentry {
@@ -459,7 +459,7 @@
 
 .profile_friend_options [id^="addfriend"] a{
         position: relative;
-        content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='19px' width='91px'><text x='0' y='14' fill='white' font-size='14' font-weight= '600' line-height='26px' font-family='Arial'>Подписаться</text></svg>");
+        content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' height='19px' width='91px'%3E%3Ctext x='0' y='14' fill='white' font-size='14' font-weight= '600' line-height='26px' font-family='Arial'%3EПодписаться%3C/text%3E%3C/svg%3E");
 }
 
 
@@ -835,7 +835,7 @@ body {
 #addfriend_12801 a{
     background: transparent !important;
     border: none;
-    content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='19px' width='91px'><text x='0' y='14' fill='white' font-size='14' font-weight= '600' line-height='26px' font-family='Arial'>Подписаться</text></svg>");
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' height='19px' width='91px'%3E%3Ctext x='0' y='14' fill='white' font-size='14' font-weight= '600' line-height='26px' font-family='Arial'%3EПодписаться%3C/text%3E%3C/svg%3E");
     margin-top: 4px !important;
 }
 
@@ -856,7 +856,7 @@ body {
 #confirmfriend_12801 a{
     background: transparent !important;
     border: none;
-    content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='19px' width='146px'><text x='0' y='14' fill='white' font-size='14' font-weight= '600' line-height='26px' font-family='Arial'>Подписаться в ответ</text></svg>");
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' height='19px' width='146px'%3E%3Ctext x='0' y='14' fill='white' font-size='14' font-weight= '600' line-height='26px' font-family='Arial'%3EПодписаться в ответ%3C/text%3E%3C/svg%3E");
     margin-top: 4px !important;
 }
 
@@ -896,7 +896,7 @@ body {
 [onclick^="newmessage"]{
     background: transparent !important;
     border: none !important;
-    content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='19px' width='81px'><text x='0' y='14' fill='rgb(85, 85, 85)' font-size='14' font-weight= '600' font-family='Arial'>Сообщение</text></svg>");
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' height='19px' width='81px'%3E%3Ctext x='0' y='14' fill='rgb(85, 85, 85)' font-size='14' font-weight= '600' font-family='Arial'%3EСообщение%3C/text%3E%3C/svg%3E");
 }
 
 #pendingfriend_12801 {
