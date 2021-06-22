@@ -1,3 +1,5 @@
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+
 * {
     padding: unset !important;
     margin: unset !important;
@@ -552,4 +554,19 @@ body {
     width: 66px;
     top: 5px;
     right: 12%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
